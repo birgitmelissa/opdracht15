@@ -1,0 +1,9 @@
+$textColor : red;
+$backgroundColor : pink;
+$padding20 : 20px;
+
+@mixin textStyling {
+    max-width: 700px;
+    text-align: center;
+    padding: &$padding20;
+  }
